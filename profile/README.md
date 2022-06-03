@@ -15,6 +15,8 @@ We offer software that makes Bazel easier to use: <https://aspect.build>
     -   [rules_py](https://github.com/aspect-build/rules_py) - Bazel rules for running Python tools and building Python projects
 -   C / C++
     -   [gcc-toolchain](https://github.com/aspect-build/gcc-toolchain) - A fully-hermetic Bazel GCC toolchain for Linux
+-   Utilities
+    -   [bazel-lib](https://github.com/aspect-build/bazel-lib) - Common useful rules & functions for writing custom build rules with Starlark
 
 **Looking for help with Bazel?**
 We offer support and consulting through our Professional Services division: <https://aspect.dev>
