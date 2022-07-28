@@ -10,6 +10,7 @@ We offer software that makes Bazel easier to use: <https://aspect.build>
     -   [rules_webpack](https://github.com/aspect-build/rules_webpack) - Bazel rules for webpack bundler <https://webpack.js.org/>
     -   [rules_rollup](https://github.com/aspect-build/rules_rollup) - Bazel rules for <https://rollupjs.org/> - a JavaScript bundler
     -   [rules_jest](https://github.com/aspect-build/rules_jest) - Bazel rules to run tests using https://jestjs.io
+    -   [rules_jasmine](https://github.com/aspect-build/rules_jasmine) - Bazel rules to run tests using https://jasmine.github.io/
     -   [rules_deno](https://github.com/aspect-build/rules_deno) - Bazel rules for Deno http://deno.land
 -   Python
     -   [rules_py](https://github.com/aspect-build/rules_py) - Bazel rules for running Python tools and building Python projects
