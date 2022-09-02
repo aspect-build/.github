@@ -1,5 +1,7 @@
 **Using Bazel?**
-We offer software that makes Bazel easier to use: <https://aspect.build>
+We offer software that makes Bazel easier to use: <https://aspect.build>.
+
+If you use our free software, please consider donating so we can pay our engineers who write it! https://opencollective.com/aspect-build
 
 -   JavaScript
     -   [rules_js](https://github.com/aspect-build/rules_js) - Bazel rules for building JavaScript programs
@@ -20,7 +22,7 @@ We offer software that makes Bazel easier to use: <https://aspect.build>
     -   [bazel-lib](https://github.com/aspect-build/bazel-lib) - Common useful rules & functions for writing custom build rules with Starlark
 
 **Looking for help with Bazel?**
-We offer support and consulting through our Professional Services division: <https://aspect.dev>
+Our Professional Services division offers support and consulting: <https://aspect.dev>
 
 **Already expert at Bazel?**
 We are hiring fully-remote engineers and offer Google-competitive compensation.
