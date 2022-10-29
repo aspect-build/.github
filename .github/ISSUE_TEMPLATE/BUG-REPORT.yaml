@@ -7,7 +7,11 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-        **We use GitHub issues only for feature requests and bug reports.** For support questions, please use [Bazel slack](https://slack.bazel.build)**.  We prioritize support requests from our paid support customers, see [aspect.dev](https://www.aspect.dev/services#support).
+        **We use GitHub issues only for feature requests and bug reports.**
+        For support questions, please use [Bazel slack](https://slack.bazel.build).
+        
+        Note that we prioritize support requests from our paid support customers,
+        see [aspect.dev](https://www.aspect.dev/services#support) to sign up.
 
   - type: textarea
     id: what-happened
@@ -25,10 +29,14 @@ body:
       label: Version
       description: Please tell us about your environment
       value: |
-        - Development (host) and target OS/architectures:
-        - `bazel --version`: 
-        - Version of the aspect rules, or other relevant rules from your `WORKSPACE` or `MODULE.bazel` file:
-        - Language(s) and/or frameworks involved:
+        Development (host) and target OS/architectures:
+
+        Output of `bazel --version`:
+
+        Version of the Aspect rules, or other relevant rules from your
+        `WORKSPACE` or `MODULE.bazel` file:
+
+        Language(s) and/or frameworks involved:
     validations:
       required: true
 
@@ -48,5 +56,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        **I'd like my bug fixed right away!** you can help fund our open source work at the same time: donate a [bug bounty](https://opencollective.com/aspect-build/)
-        Just let us know on this issue that you'd like to fund it.
+       - [ ]  **I'd like my bug fixed right away!** Sponsor our open source work by donating a [bug bounty](https://opencollective.com/aspect-build/)
+         Just let us know on this issue that you'd like to fund it.
