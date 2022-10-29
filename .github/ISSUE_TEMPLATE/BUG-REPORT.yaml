@@ -56,8 +56,8 @@ body:
   - type: checkboxes
     attributes:
       label: Fund our work
-    description: I'd like my bug fixed right away!
-    options:
-      - label: Sponsor our open source work by donating a [bug bounty](https://opencollective.com/aspect-build/)
+      description: I'd like my bug fixed right away!
+      options:
+        - label: Sponsor our open source work by donating a [bug bounty](https://opencollective.com/aspect-build/)
         
   
