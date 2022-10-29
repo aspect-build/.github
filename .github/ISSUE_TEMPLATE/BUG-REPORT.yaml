@@ -9,7 +9,6 @@ body:
         Thanks for taking the time to fill out this bug report!
         
         **Looking for help?** For support questions, please use [Bazel slack](https://slack.bazel.build).
-        
         Note that we prioritize support requests from our paid support customers. Sign up at [aspect.dev](https://www.aspect.dev/services#support).
 
   - type: textarea
@@ -54,6 +53,7 @@ body:
         (e.g. detailed explanation, stacktraces, related issues, suggestions how to fix, things you've tried, links for us to have context, eg. stackoverflow, gitter, etc)
   
   - type: checkboxes
+    id: sponsor
     attributes:
       label: Fund our work
       description: I'd like my bug fixed right away!

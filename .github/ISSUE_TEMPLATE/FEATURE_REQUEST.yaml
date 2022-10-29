@@ -1,0 +1,34 @@
+name: Feature Request
+description: Suggest an idea for this project
+title: "[FR]: "
+labels: ["enhancement"]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Before filing, consider whether there's another place this feature might be better layered.
+        Consider that the tool being invoked by Bazel might be broken,
+        or that your specific, proximate problem has a more general, ultimate solution.
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What is the current behavior?
+      description: To make sure we agree on this.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Describe the feature
+      description: What is the motivation / use case for changing the behavior?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: sponsor
+    attributes:
+      label: Fund our work
+      description: I'd like my feature built right away!
+      options:
+        - label: Sponsor our open source work by donating a [feature bounty](https://opencollective.com/aspect-build/)
