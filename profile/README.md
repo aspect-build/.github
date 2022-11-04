@@ -21,7 +21,7 @@ If you use our free software, please consider donating so we can pay our enginee
     -   [gcc-toolchain](https://github.com/aspect-build/gcc-toolchain) - A fully-hermetic Bazel GCC toolchain for Linux
 -   Utilities
     -   [bazel-lib](https://github.com/aspect-build/bazel-lib) - Common useful rules & functions for writing custom build rules with Starlark
-    -   [bazel-super-formatter](https://github.com/aspect-build/bazel-super-formatter) - Hermetic meta-formatter to format code in most languages
+    -   [bazel-super-formatter](https://github.com/aspect-build/bazel-super-formatter) - Hermetic aggregation formatter to format code in most languages
 
 **Looking for help with Bazel?**
 Our Professional Services division offers support and consulting: <https://aspect.dev>
