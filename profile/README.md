@@ -3,6 +3,7 @@ We offer software that makes Bazel easier to use: <https://aspect.build>.
 
 If you use our free software, please consider donating so we can pay our engineers who write it! https://opencollective.com/aspect-build
 
+-   [Aspect CLI](https://github.com/aspect-build/aspect-cli) - correct, fast, usable: choose three
 -   JavaScript
     -   [rules_js](https://github.com/aspect-build/rules_js) - Bazel rules for building JavaScript programs
     -   [rules_esbuild](https://github.com/aspect-build/rules_esbuild) - Bazel rules for [esbuild](https://esbuild.github.io) JS bundler
