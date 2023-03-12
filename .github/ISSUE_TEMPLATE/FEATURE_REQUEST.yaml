@@ -25,10 +25,26 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: sponsor
+  - type: markdown
     attributes:
-      label: Fund our work
-      description: I'd like my feature built right away!
-      options:
-        - label: Sponsor our open source work by donating a [feature bounty](https://opencollective.com/aspect-build/)
+      value: "## _Need help?_"
+
+  - type: markdown
+    attributes:
+      value: |
+        Community support for Aspect open source Bazel rules on [Bazel Slack](slack.bazel.build)
+           - #javascript channel for rules_js & derivate JavaScript rules
+           - #python channel for rules_py
+           - #cc channel for gcc-toolchain
+           - #aspect-dev chnanel for Aspect CLI & general support
+        Commercial support provided by https://aspect.dev.
+
+  - type: markdown
+    attributes:
+      value: "## _Slow CI/CD with Bazel?_"
+
+  - type: markdown
+    attributes:
+      value: |
+        Accelerate your CI/CD pipeline with [Aspect Workflows](https://www.aspect.build/workflows) - the efficient and reliable build, test, and CI/CD platform based on Google's Bazel.
+        Book a demo today to experience lightning-fast builds and streamline your development process.
