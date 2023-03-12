@@ -36,7 +36,7 @@ body:
            - [#javascript](https://bazelbuild.slack.com/archives/CEZUUKQ6P) channel for [rules_js](https://github.com/aspect-build/rules_js) & derivate JavaScript rules
            - [#python](https://bazelbuild.slack.com/archives/CA306CEV6) channel for [rules_py](https://github.com/aspect-build/rules_py)
            - [#cc](https://bazelbuild.slack.com/archives/CGA9QFQ8H) channel for [gcc-toolchain](https://github.com/aspect-build/gcc-toolchain)
-           - [#aspect-dev](https://bazelbuild.slack.com/archives/C04281DTLH0) chnanel for [Aspect CLI](https://github.com/aspect-build/aspect-cli) & general support
+           - [#aspect-dev](https://bazelbuild.slack.com/archives/C04281DTLH0) channel for [Aspect CLI](https://github.com/aspect-build/aspect-cli) & general support
 
   - type: markdown
     attributes:
