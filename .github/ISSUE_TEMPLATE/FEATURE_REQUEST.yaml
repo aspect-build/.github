@@ -52,4 +52,4 @@ body:
 
   - type: markdown
     attributes:
-      value: Book a demo today to experience lightning-fast builds and streamline your development process.
+      value: [Book a demo](https://www.aspect.build/book-a-demo) today to experience lightning-fast builds and streamline your development process.
