@@ -32,7 +32,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Community support for Aspect oBazel rules on [Bazel Slack](slack.bazel.build)
+        Community support for Aspect Bazel rules is available on [Bazel Slack](slack.bazel.build)
            - [#javascript](https://bazelbuild.slack.com/archives/CEZUUKQ6P) channel for [rules_js](https://github.com/aspect-build/rules_js) & derivate JavaScript rules
            - [#python](https://bazelbuild.slack.com/archives/CA306CEV6) channel for [rules_py](https://github.com/aspect-build/rules_py)
            - [#cc](https://bazelbuild.slack.com/archives/CGA9QFQ8H) channel for [gcc-toolchain](https://github.com/aspect-build/gcc-toolchain)
@@ -40,7 +40,7 @@ body:
 
   - type: markdown
     attributes:
-      value: Commercial support provided by https://aspect.dev.
+      value: Commercial support is provided by https://aspect.dev.
 
   - type: markdown
     attributes:
