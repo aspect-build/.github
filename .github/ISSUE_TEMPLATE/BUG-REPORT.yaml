@@ -51,12 +51,31 @@ body:
       description: |
         (e.g. detailed explanation, stacktraces, related issues, suggestions how to fix, things you've tried, links for us to have context, eg. stackoverflow, gitter, etc)
   
-  - type: checkboxes
-    id: sponsor
+  - type: markdown
     attributes:
-      label: Fund our work
-      description: I'd like my bug fixed right away!
-      options:
-        - label: Sponsor our open source work by donating a [bug bounty](https://opencollective.com/aspect-build/)
-        
-  
+      value: "## _Need help?_"
+
+  - type: markdown
+    attributes:
+      value: |
+        Community support for Aspect Bazel rules is available on [Bazel Slack](slack.bazel.build)
+           - [#javascript](https://bazelbuild.slack.com/archives/CEZUUKQ6P) channel for [rules_js](https://github.com/aspect-build/rules_js) & derivate JavaScript rules
+           - [#python](https://bazelbuild.slack.com/archives/CA306CEV6) channel for [rules_py](https://github.com/aspect-build/rules_py)
+           - [#cc](https://bazelbuild.slack.com/archives/CGA9QFQ8H) channel for [gcc-toolchain](https://github.com/aspect-build/gcc-toolchain)
+           - [#aspect-dev](https://bazelbuild.slack.com/archives/C04281DTLH0) chnanel for [Aspect CLI](https://github.com/aspect-build/aspect-cli) & general support
+
+  - type: markdown
+    attributes:
+      value: Commercial support is provided by https://aspect.dev.
+
+  - type: markdown
+    attributes:
+      value: "## _Slow CI/CD with Bazel?_"
+
+  - type: markdown
+    attributes:
+      value: Accelerate your CI/CD pipeline with [Aspect Workflows](https://www.aspect.build/workflows) - the efficient and reliable build, test, and CI/CD platform for Bazel.
+
+  - type: markdown
+    attributes:
+      value: Book a [demo](https://www.aspect.build/book-a-demo) today to experience lightning-fast builds and streamline your development process.
