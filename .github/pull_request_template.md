@@ -13,12 +13,11 @@ You may delete parts of the template if they are obvious to all possible reviewe
 - [ ] Documentation (updates to documentation or READMEs)
 - [ ] Chore (any other change that doesn't affect source or test files)
 
-**Properties**
+**For changes visible to end-users**
 
-- [ ] Breaking change (this change will cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
-
-Release Notes: if the change is end-user visible, also consider providing some notes for the release engineer.
+- [ ] Breaking change (this change will force users to change their own code or config)
+- [ ] Relevant documentation has been updated
+- [ ] Some release notes are provided below:
 
 **Test plan**
 
