@@ -17,7 +17,7 @@ You may delete parts of the template if they are obvious to all possible reviewe
 
 - [ ] Breaking change (this change will force users to change their own code or config)
 - [ ] Relevant documentation has been updated
-- [ ] Some release notes are provided below:
+- [ ] Suggested release notes are provided below:
 
 **Test plan**
 
