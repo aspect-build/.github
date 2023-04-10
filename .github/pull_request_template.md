@@ -1,10 +1,9 @@
-# Description
+Please include a summary of your changes and link to the related issue(s).
+Please also include relevant motivation and context.
 
-Please include a summary of the changes and the related issue (if any). Please also include relevant motivation and context.
+You may delete parts of the template if they are obvious to all possible reviewers, e.g. the information is in the one-line description.
 
-Fixes # (issue)
-
-# Type of change
+**Type of change**
 
 - [ ] Bug fix (change which fixes an issue)
 - [ ] New feature or functionality (change which adds functionality)
@@ -14,17 +13,19 @@ Fixes # (issue)
 - [ ] Documentation (updates to documentation or READMEs)
 - [ ] Chore (any other change that doesn't affect source or test files)
 
-# Properties of change
+**For changes visible to end-users**
 
-- [ ] Breaking change (this change will cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
+- [ ] Breaking change (this change will force users to change their own code or config)
+- [ ] Relevant documentation has been updated
+- [ ] Suggested release notes are provided below:
 
-# Test plan
+**Test plan**
 
 How has this been tested?
 
-- [ ] Covered by existing tests cases
+- [ ] Covered by existing test cases
 - [ ] New test cases added
 - [ ] Manual testing
 
-If part of the test plan included manual testing, please provide instructions so we can reproduce. Please also list any relevant details for your test configuration.
+If part of the test plan included manual testing, please provide instructions so we can reproduce.
+Please also list any relevant details for your test configuration.
