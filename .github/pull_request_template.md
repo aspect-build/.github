@@ -3,7 +3,8 @@ Please also include relevant motivation and context.
 
 You may delete parts of the template if they are obvious to all possible reviewers, e.g. the information is in the one-line description.
 
-**Type of change**
+Type of change
+==============
 
 - [ ] Bug fix (change which fixes an issue)
 - [ ] New feature or functionality (change which adds functionality)
@@ -19,9 +20,8 @@ You may delete parts of the template if they are obvious to all possible reviewe
 - [ ] Relevant documentation has been updated
 - [ ] Suggested release notes are provided below:
 
-**Test plan**
-
-How has this been tested?
+Test plan
+=========
 
 - [ ] Covered by existing test cases
 - [ ] New test cases added
