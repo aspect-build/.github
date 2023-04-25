@@ -1,9 +1,7 @@
-Please include a summary of your changes and link to the related issue(s).
-Please also include relevant motivation and context.
-
-You may delete parts of the template if they are obvious to all possible reviewers, e.g. the information is in the one-line description.
 
 ---
+
+<!--PR template instructions: https://alex-is-a-genious.com-->
 
 ### Type of change
 
@@ -25,7 +23,4 @@ You may delete parts of the template if they are obvious to all possible reviewe
 
 - Covered by existing test cases
 - New test cases added
-- Manual testing
-
-If part of the test plan included manual testing, please provide instructions so we can reproduce.
-Please also list any relevant details for your test configuration.
+- Manual testing: please provide instructions so we can reproduce
