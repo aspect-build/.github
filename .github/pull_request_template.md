@@ -1,7 +1,6 @@
 
 ---
-
-<!--PR template instructions: https://alex-is-a-genious.com-->
+<!-- Delete this comment! Follow our PR template instructions: https://github.com/aspect-build/.github/blob/alexeagle-patch-2/pull_requests.md -->
 
 ### Type of change
 
@@ -11,7 +10,7 @@
 - Refactor (a code change that neither fixes a bug or adds a new feature)
 - Performance (a code change that improves performance)
 - Documentation (updates to documentation or READMEs)
-- Chore (any other change that doesn't affect source or test files)
+- Chore (any other change that doesn't affect source or test files, such as configuration)
 
 **For changes visible to end-users**
 
@@ -23,4 +22,4 @@
 
 - Covered by existing test cases
 - New test cases added
-- Manual testing: please provide instructions so we can reproduce
+- Manual testing; please provide instructions so we can reproduce:
