@@ -1,6 +1,6 @@
 
 ---
-<!-- Delete this comment! Follow our PR template instructions: https://github.com/aspect-build/.github/blob/alexeagle-patch-2/pull_requests.md -->
+<!-- Delete this comment! Follow our PR template instructions: https://github.com/aspect-build/.github/blob/main/pull_requests.md -->
 
 ### Type of change
 
