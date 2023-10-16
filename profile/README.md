@@ -20,7 +20,7 @@ We offer software that makes Bazel easier to use: <https://aspect.build>.
     -   [gcc-toolchain](https://github.com/aspect-build/gcc-toolchain) - A fully-hermetic Bazel GCC toolchain for Linux
 -   Utilities
     -   [bazel-lib](https://github.com/aspect-build/bazel-lib) - Common useful rules & functions for writing custom build rules with Starlark
-    -   [bazel-super-formatter](https://github.com/aspect-build/bazel-super-formatter) - Hermetic aggregation formatter to format code in most languages
+    -   [rules_lint](https://github.com/aspect-build/rules_lint) - Aggregator to lint/format code in most languages
 
 If you use our free software, please consider donating so we can pay our engineers who write it! https://opencollective.com/aspect-build
 
