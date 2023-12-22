@@ -11,6 +11,10 @@ body:
         Consider that the tool being invoked by Bazel might be broken,
         or that your specific, proximate problem has a more general, ultimate solution.
 
+        Note that Aspect only implements new features requested by our paying customers.
+        You can sign up for our Bazel Open Source Support at [aspect.dev](https://www.aspect.dev/services#support)
+        or make a "Feature Bounty" donation via the Sponsor button above.
+
   - type: textarea
     id: current
     attributes:
