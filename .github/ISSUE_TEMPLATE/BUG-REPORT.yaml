@@ -6,10 +6,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to report a bug!
         
-        **Looking for help?** For support questions, please use [Bazel slack](https://slack.bazel.build).
-        Note that we prioritize support requests from our paid support customers. Sign up at [aspect.dev](https://www.aspect.dev/services#support).
+        Note that the maintainers prioritize bug reports from our customers.
+        Sign up for our Bazel Open Source Support at [aspect.dev](https://www.aspect.dev/services#support)
+        or make a "Bug Bounty" donation via the Sponsor link above.
+        We have limited "hobby time" and are unlikely to fix other bugs.
+
+        **Looking for help?** This issue tracker is intended for reporting bugs in our code or documentation.
+        For support questions, please use [Bazel slack](https://slack.bazel.build).
 
   - type: textarea
     id: what-happened
@@ -41,7 +46,7 @@ body:
     id: repro
     attributes:
       label: How to reproduce
-      description: Your bug is more likely to be resolved if you provide the steps to reproduce, and if possible a minimal demo of the problem.
+      description: Your bug is more likely to be resolved if you provide exact steps to reproduce, and if possible a minimal demo of the problem.
       render: shell
 
   - type: textarea
