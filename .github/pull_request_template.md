@@ -1,24 +1,22 @@
+
 ---
 
-<!-- Delete this comment! Follow our PR template instructions: https://github.com/aspect-build/.github/blob/main/pull_requests.md -->
+<!-- Delete this comment! 
+Follow our PR template instructions: https://github.com/aspect-build/.github/blob/main/pull_requests.md 
+PR title and description must comply with https://www.conventionalcommits.org/
+-->
 
-### Type of change
+### Changes are visible to end-users: yes/no
 
-- Bug fix (change which fixes an issue)
-- New feature or functionality (change which adds functionality)
-- Style (white-space, formatting, etc...)
-- Refactor (a code change that neither fixes a bug or adds a new feature)
-- Performance (a code change that improves performance)
-- Documentation (updates to documentation or READMEs)
-- Chore (any other change that doesn't affect source or test files, such as configuration)
+<!-- If no, please delete this section. -->
 
-**For changes visible to end-users**
-
-- Breaking change (this change will force users to change their own code or config)
-- Relevant documentation has been updated
-- Suggested release notes are provided below:
+- Searched for relevant documentation and updated as needed: yes/no
+- Breaking change (forces users to change their own code or config): yes/no
+- Suggested release notes appear below: yes/no
 
 ### Test plan
+
+<!-- Delete any which do not apply -->
 
 - Covered by existing test cases
 - New test cases added
