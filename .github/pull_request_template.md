@@ -1,7 +1,10 @@
 
 ---
 
-<!-- Delete this comment! Follow our PR template instructions: https://github.com/aspect-build/.github/blob/main/pull_requests.md -->
+<!-- Delete this comment! 
+Follow our PR template instructions: https://github.com/aspect-build/.github/blob/main/pull_requests.md 
+PR title and description must comply with https://www.conventionalcommits.org/
+-->
 
 ### Changes are visible to end-users: yes/no
 
@@ -9,7 +12,6 @@
 
 - Searched for relevant documentation and updated as needed: yes/no
 - Breaking change (forces users to change their own code or config): yes/no
-  see <https://www.conventionalcommits.org/en/v1.0.0/#commit-message-with-both--and-breaking-change-footer>
 - Suggested release notes appear below: yes/no
 
 ### Test plan
