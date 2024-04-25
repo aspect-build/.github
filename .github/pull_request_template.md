@@ -1,10 +1,10 @@
+<!-- Delete this comment! 
+Include a summary of your changes, links to related issue(s), relevant motivation and context for why you made the change, how you arrived at this design, or alternatives considered.
+
+For repositories that use a squash merge strategy, the pull request description may also be used as the landed commit description ensuring that useful information ends up in the git log.
+-->
 
 ---
-
-<!-- Delete this comment! 
-Follow our PR template instructions: https://github.com/aspect-build/.github/blob/main/pull_requests.md 
-PR title and description must comply with https://www.conventionalcommits.org/
--->
 
 ### Changes are visible to end-users: yes/no
 
