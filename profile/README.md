@@ -21,10 +21,3 @@ We offer software that makes Bazel easier to use: <https://aspect.build>.
     -   [rules_lint](https://github.com/aspect-build/rules_lint) - Aggregator to lint/format code in most languages
 
 If you use our free software, please consider donating so we can pay our engineers who write it! https://opencollective.com/aspect-build
-
-**Looking for help with Bazel?**
-Our Professional Services division offers support and consulting: <https://aspect.dev>
-
-**Already expert at Bazel?**
-We are hiring fully-remote engineers and offer Google-competitive compensation.
-Start at https://aspect.dev/careers
