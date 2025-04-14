@@ -13,7 +13,6 @@ We offer software that makes Bazel easier to use: <https://aspect.build>.
     -   [rules_jest](https://github.com/aspect-build/rules_jest) - Bazel rules to run tests using [Jest](https://jestjs.io)
     -   [rules_jasmine](https://github.com/aspect-build/rules_jasmine) - Bazel rules to run tests using [Jasmine](https://jasmine.github.io/)
     -   [rules_cypress](https://github.com/aspect-build/rules_cypress) - Bazel rules to run tests using [Cypress](https://cypress.io)
-    -   [rules_deno](https://gitlab.com/aspect-build/rules_deno) - Bazel rules for [Deno](http://deno.land)
 -   Python
     -   [rules_py](https://github.com/aspect-build/rules_py) - Bazel rules for running Python tools and building Python projects
 -   Utilities
