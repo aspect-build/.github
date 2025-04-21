@@ -1,0 +1,43 @@
+[
+    {
+        "name": "can close?",
+        "description": "We will close this in 30 days if there's no objection",
+        "color": "EBFD56"
+    },
+    {
+        "name": "blocker",
+        "description": "P0 issue that we should fix for a support client",
+        "color": "d73a4a"
+    },
+    {
+        "name": "prioritized",
+        "description": "P1 issue that we hope to work on soon",
+        "color": "1D76DB"
+    },
+    {
+        "name": "need: more info",
+        "description": "The issue isn't clear as written",
+        "color": "EBFD56"
+    },
+    {
+        "name": "need: repro",
+        "description": "We can't reproduce the issue",
+        "color": "EBFD56"
+    },
+    {
+        "name": "need: discussion",
+        "description": "We have to do some design work in a meeting",
+        "color": "EBFD56"
+    },
+    {
+        "name": "need: funding",
+        "description": "Contribute to https://opencollective.com/aspect-build",
+        "color": "008672"
+    },
+    {
+        "name": "need: example",
+        "description": "We should add under examples/ or bazel-examples",
+        "color": "0075ca"
+    }
+]
+  
