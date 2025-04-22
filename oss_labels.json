@@ -1,17 +1,52 @@
 [
     {
+        "name": "area: windows",
+        "description": "Affects Windows users",
+        "color": ""
+    },
+    {
+        "name": "area: bazel6",
+        "description": "Affects Bazel 6 users",
+        "color": ""
+    },
+    {
+        "name": "engagement note",
+        "description": "related to a specific engagement",
+        "color": "d73a4a"
+    },
+    {
+        "name": "collaborator",
+        "description": "author is an Aspect collaborator",
+        "color": ""
+    },
+    {
+        "name": "tracking issue",
+        "description": "List of multiple issues",
+        "color": ""
+    },
+    {
+        "name": "state: blocked",
+        "description": "Cannot make progress on this due to external factor",
+        "color": "1D76DB"
+    },
+    {
+        "name": "breaking",
+        "description": "Requires a semver-major release due to breaking public API changes",
+        "color": ""
+    },
+    {
+        "name": "regression",
+        "description": "Something was working in a previous version",
+        "color": ""
+    },
+    {
         "name": "can close?",
         "description": "We will close this in 30 days if there's no objection",
         "color": "EBFD56"
     },
     {
-        "name": "blocker",
-        "description": "P0 issue that we should fix for a support client",
-        "color": "d73a4a"
-    },
-    {
-        "name": "prioritized",
-        "description": "P1 issue that we hope to work on soon",
+        "name": "state: prioritized",
+        "description": "valuable work that we hope to complete soon",
         "color": "1D76DB"
     },
     {
@@ -31,7 +66,7 @@
     },
     {
         "name": "need: funding",
-        "description": "Contribute to https://opencollective.com/aspect-build",
+        "description": "We could prioritize this based on donation to https://opencollective.com/aspect-build",
         "color": "008672"
     },
     {
