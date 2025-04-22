@@ -1,0 +1,73 @@
+[
+    {
+        "name": "windows",
+        "description": "Affects Windows users",
+        "color": "0CE5FA"
+    },
+    {
+        "name": "bazel 6",
+        "description": "Affects Bazel 6 users",
+        "color": "0CE5FA"
+    },
+    {
+        "name": "engagement note",
+        "description": "related to a specific engagement",
+        "color": "d73a4a"
+    },
+    {
+        "name": "collaborator",
+        "description": "author is an Aspect collaborator",
+        "color": "82DE09"
+    },
+    {
+        "name": "tracking issue",
+        "description": "List of multiple issues",
+        "color": "ffffff"
+    },
+    {
+        "name": "breaking",
+        "description": "Requires a semver-major release due to breaking public API changes",
+        "color": "B60205"
+    },
+    {
+        "name": "regression",
+        "description": "Something was working in a previous version",
+        "color": "B60205"
+    },
+    {
+        "name": "can close?",
+        "description": "We will close this in 30 days if there's no objection",
+        "color": "EBFD56"
+    },
+    {
+        "name": "blocked",
+        "description": "Cannot make progress on this due to external factor",
+        "color": "e4e669"
+    },
+    {
+        "name": "prioritized",
+        "description": "valuable work that we hope to complete soon",
+        "color": "470346"
+    },
+    {
+        "name": "more info needed",
+        "description": "The issue isn't clear as written",
+        "color": "EBFD56"
+    },
+    {
+        "name": "repro needed",
+        "description": "We can't reproduce the issue",
+        "color": "EBFD56"
+    },
+    {
+        "name": "discussion needed",
+        "description": "We have to do some design work in a meeting",
+        "color": "EBFD56"
+    },
+    {
+        "name": "funding needed",
+        "description": "We could prioritize this based on donation to https://opencollective.com/aspect-build",
+        "color": "EBFD56"
+    }
+]
+  
