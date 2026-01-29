@@ -25,9 +25,9 @@ jobs:
         - uses: lycheeverse/lychee-action@v1.1.0
           id: lychee
           with:
-              args: '*.md docs/*.md'
+              args: --user-agent "curl/8.4.0" "*.md" "docs/*.md"
         - name: Fail if broken links found
           if: steps.lychee.outputs.exit_code != '0'
           run: |
-              gh pr comment ${{ github.event.pull_request.number }} --body-file ${{ env.LYCHEE_OUT }}
+              gh pr comment ${{ github.event.pull_request.number }} --body-file ${{ env.LYCHEE_OUT }} --edit-last --create-if-none
               exit ${{ steps.lychee.outputs.exit_code }}
