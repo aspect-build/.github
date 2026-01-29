@@ -1,0 +1,33 @@
+name: Organization-wide CI Checks
+
+on:
+  # enables reuse from other repos
+  # NB: this workflow must be explicitly called from repos in this org
+  workflow_call:
+permissions:
+  pull-requests: write
+  contents: read
+jobs:
+  semantic-pull-request:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: amannn/action-semantic-pull-request@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  check-links:
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        LYCHEE_OUT: 'lychee-report.md'
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v6
+        - uses: lycheeverse/lychee-action@v1.1.0
+          id: lychee
+          with:
+              args: --user-agent "curl/8.4.0" "*.md" "docs/*.md"
+        - name: Fail if broken links found
+          if: steps.lychee.outputs.exit_code != '0'
+          run: |
+              gh pr comment ${{ github.event.pull_request.number }} --body-file ${{ env.LYCHEE_OUT }} --edit-last --create-if-none
+              exit ${{ steps.lychee.outputs.exit_code }}
