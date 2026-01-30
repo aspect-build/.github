@@ -26,6 +26,8 @@ jobs:
           id: lychee
           with:
               args: --user-agent "curl/8.4.0" "*.md" "docs/*.md"
+              output: ${{ env.LYCHEE_OUT }}
+              fail: false
         - name: Fail if broken links found
           if: steps.lychee.outputs.exit_code != '0'
           run: |
