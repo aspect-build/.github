@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v6
-        - uses: lycheeverse/lychee-action@v1.1.0
+        - uses: lycheeverse/lychee-action@v2.7.0
           id: lychee
           with:
               args: --user-agent "curl/8.4.0" "*.md" "docs/*.md"
