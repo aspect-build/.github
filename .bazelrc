@@ -1,2 +1,0 @@
-# Fix https://github.com/bazelbuild/bazel/issues/3325
-run --run_in_cwd
