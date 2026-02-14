@@ -1,0 +1,6 @@
+name = "ingest-stardocs-webhook"
+main = "./index.js"
+# for aspect.build
+account_id = "48aec125c19064df4d3756d3103d57bb"
+workers_dev = false
+compatibility_date = "2022-09-19"
