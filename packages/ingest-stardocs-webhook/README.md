@@ -7,7 +7,7 @@ This webhook is for triggering docs updates on ruleset releases.
 
 ## Developing
 
-Install dependencies:
+(optional) For local dev, install dependencies:
 
     bazel run @pnpm -- --dir=$PWD install
 
@@ -17,4 +17,4 @@ Authorize wrangler to Cloudflare:
 
 Deploy the code live to production:
 
-    BAZEL_BINDIR=. bazel run publish
+    bazel run publish
