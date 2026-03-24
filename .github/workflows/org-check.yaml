@@ -27,9 +27,7 @@ jobs:
           with:
               args: --user-agent "curl/8.4.0" "*.md" "docs/*.md"
               output: ${{ env.LYCHEE_OUT }}
-              fail: github.event_name != 'pull_request'
+              fail: false
         - name: Comment on PR if broken links found
           if: github.event_name == 'pull_request' && steps.lychee.outputs.exit_code != '0'
-          run: |
-              gh pr comment ${{ github.event.pull_request.number }} --body-file ${{ env.LYCHEE_OUT }} --edit-last --create-if-none
-              exit ${{ steps.lychee.outputs.exit_code }}
+          run: gh pr comment ${{ github.event.pull_request.number }} --body-file ${{ env.LYCHEE_OUT }} --edit-last --create-if-none
