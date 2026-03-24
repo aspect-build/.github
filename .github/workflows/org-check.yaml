@@ -4,6 +4,9 @@ on:
   # enables reuse from other repos
   # NB: this workflow must be explicitly called from repos in this org
   workflow_call:
+    secrets:
+      CALLER_GH_TOKEN:
+        required: true
 permissions:
   pull-requests: write
   contents: read
@@ -17,7 +20,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   check-links:
     env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.CALLER_GH_TOKEN }}
         LYCHEE_OUT: 'lychee-report.md'
     runs-on: ubuntu-latest
     steps:
