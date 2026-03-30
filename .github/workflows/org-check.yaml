@@ -4,6 +4,9 @@ on:
   # enables reuse from other repos
   # NB: this workflow must be explicitly called from repos in this org
   workflow_call:
+    inputs:
+      caller_repo:
+        type: string
     secrets:
       CALLER_GH_TOKEN:
         required: true
@@ -31,7 +34,7 @@ jobs:
               output: ${{ env.LYCHEE_OUT }}
               fail: false
         - name: Comment on PR if broken links found
-          env:
-            GH_TOKEN: ${{ secrets.CALLER_GH_TOKEN }}
           if: github.event_name == 'pull_request' && steps.lychee.outputs.exit_code != '0'
-          run: gh pr comment ${{ github.event.pull_request.number }} --body-file ${{ env.LYCHEE_OUT }} --edit-last --create-if-none
+          run: gh pr comment ${{ github.event.pull_request.number }} --repo ${{ inputs.caller_repo || github.repository }} --body-file ${{ env.LYCHEE_OUT }} --edit-last --create-if-none
+          env:
+              GH_TOKEN: ${{ secrets.CALLER_GH_TOKEN }}
