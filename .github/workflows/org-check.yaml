@@ -20,7 +20,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   check-links:
     env:
-        GITHUB_TOKEN: ${{ secrets.CALLER_GH_TOKEN }}
+        GH_TOKEN: ${{ secrets.CALLER_GH_TOKEN }}
         LYCHEE_OUT: 'lychee-report.md'
     runs-on: ubuntu-latest
     steps:
