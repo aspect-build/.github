@@ -15,7 +15,7 @@ jobs:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - uses: amannn/action-semantic-pull-request@v5
+      - uses: amannn/action-semantic-pull-request@e32d7e603df1aa1ba07e981f2a23455dee596825 # v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   check-links:
@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v6
-        - uses: lycheeverse/lychee-action@v2.7.0
+        - uses: lycheeverse/lychee-action@a8c4c7cb88f0c7386610c35eb25108e448569cb0 # v2.7.0
           id: lychee
           with:
               args: --user-agent "curl/8.4.0" "*.md" "docs/*.md"
