@@ -1,6 +1,6 @@
 # Aspect Build
 
-Aspect makes Bazel fast and approachable. We build open-source Bazel rulesets used by thousands of teams, and offer [Aspect Workflows](https://aspect.build/platform) — managed CI runners with remote caching and RBE, deployed in your cloud or hosted by Aspect as a single-tenant service.
+Aspect makes Bazel fast and approachable. We build open-source Bazel rulesets used by thousands of teams, and offer [Aspect Workflows](https://aspect.build/platform), managed CI runners with remote caching and RBE, deployed in your cloud or hosted by Aspect as a single-tenant service.
 
 📖 **Docs:** [docs.aspect.build](https://docs.aspect.build) &nbsp;|&nbsp;
 💬 **Slack:** [slack.aspect.build](http://slack.aspect.build/) &nbsp;|&nbsp;
